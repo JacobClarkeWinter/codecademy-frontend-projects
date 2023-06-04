@@ -1,0 +1,54 @@
+body {
+    background-color: #FBEAEB;
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid #2F3C7E;
+    background-color: #FBEAEB;
+    width: 900px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4959a5;
+    color: #FBEAEB;
+}
+
+tbody {
+    color: #2F3C7E;
+}
+
+td {
+    text-align: left;
+    border-top: 1px solid #2F3C7E;
+    border-left: 1px solid #2F3C7E;;
+}
+
+/* this selects the first <td> element of each <tr> element. This means all cells in the first column in the table */
+span {
+    font-family: monospace;
+    background-color: beige;
+}
+
+table td:nth-child(1) {
+    width: 80px;
+    text-align: center;
+}
+
+table td:nth-child(2) {
+    width: 120px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'arial black';
+    color: #4959a5;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'arial black';
+    color: #4959a5;
+}
