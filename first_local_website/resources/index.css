@@ -1,0 +1,14 @@
+.banner {
+    color: rgba(1, 218, 222, 0.77);
+    text-align: center;
+}
+
+.submissions {
+    text-align: center;
+}
+
+img {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
